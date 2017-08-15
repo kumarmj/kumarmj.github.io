@@ -33,10 +33,46 @@
     <a href="https://medium.com/@kumarmj" class="btn btn-2" target="_blank"><span>Blog</span></a> 
     <!--End of Button 4 -->
     <br/>
-    <a href="#" class="btn btn-5">More</a> 
+    <div id="tank">
+      <ul>
+ 
+      </ul>
+    </div>
+    <a href="#" class="btn btn-5">More</a>
     <!--End of Button 5 -->
   </div>
-  
+  <script>
+    function parse(str) {
+        var args = [].slice.call(arguments, 1),
+            i = 0;
+
+        return str.replace(/%s/g, function() {
+            return args[i++];
+        });
+    }
+
+    var arr = [
+      {github: 'https://github.com/kumarmj'},
+      {facebook: 'https://facebook.com/ikumarmj'},
+      {codeforces: 'http://codeforces.com/profile/nithmanoj'},
+      {interviewbit: 'https://www.interviewbit.com/profile/nithmanoj'},
+      {kaggle: 'https://www.kaggle.com/nithmanoj'},
+      {topcoder: 'https://www.topcoder.com/members/nithmanoj'},
+      {resume: 'http://kumarmj.me/resume.pdf'},
+      {cogoport: 'http://kumarmj.me/cogoport.pdf'},
+      {winuall: 'http://kumarmj.me/winuall.pdf'}
+    ]
+    $('.btn-5').click(function(){
+      var listItem = '<li class="btn btn-1"><a href="%s" target="_blank">#%s</a></li>';
+      var list = $('#tank ul');
+      for(link of arr){
+        var key = Object.keys(link)[0];
+        list.append(parse(listItem, link[key], key));
+      }
+      $('.btn-5').hide();
+      $('#tank').show();
+    })
+  </script>
 </section>
   </body>
 </html>

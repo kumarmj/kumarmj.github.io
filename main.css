@@ -136,6 +136,7 @@ p a:hover {
 .btn-1 {
   background: #e02c26;
   font-weight: 100;
+  text-transform: lowercase;
 }
 .btn-1 svg {
   height: 45px;
@@ -272,4 +273,30 @@ p a:hover {
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
+}
+
+#tank {
+  display: none;
+  width: 80%;
+  margin: 0 10%;
+  padding: 20px;
+}
+
+#tank li{
+  display: inline;
+  float: left;
+  color: #fff;
+  margin-right: 20px;
+}
+
+a:link{
+  color: #fff;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:visited{
+  color: #fff;
 }
