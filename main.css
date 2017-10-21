@@ -21,7 +21,8 @@ body {
 }
 
 body {
-  background: #E1332D;
+  background-size:cover;
+  background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
