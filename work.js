@@ -15,4 +15,4 @@ const work = [
 
 const wrkList = document.getElementById("work_list");
 let workItems = [];
-wrkList.innerHTML = work.map(({ title, link }) => `<a class='work_item' href=${link} target="_blank">${title}</div>`);
+wrkList.innerHTML = work.map(({ title, link }) => `<a class='work_item' href=${link} target="_blank">${title}</div>`).join(' ');
