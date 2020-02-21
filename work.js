@@ -5,7 +5,7 @@ const work = [
     },
     {
         title: "⚽ My work in jQuery Foundation",
-        link: "https://github.com/qunitjs/qunit/issues/914"
+        link: "https://github.com/qunitjs/qunit/issues/914#issuecomment-250809863"
     },
     {
         title: "🎓 Cogoport Internship",
