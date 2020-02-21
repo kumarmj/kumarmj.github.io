@@ -10,6 +10,10 @@ const work = [
     {
         title: "🚀 Udemy Certificate",
         link: "https://kumarmj.github.io/"
+    },
+    {
+        title: "🚀 LinkedIn Certificate",
+        link: "https://kumarmj.github.io/"
     }
 ]
 
