@@ -1,19 +1,19 @@
 const work = [
     {
-        title: "🎓 Cogoport Internship",
-        link: "https://kumarmj.github.io/"
-    },
-    {
         title: "🎓 Winuall Internship",
-        link: "https://kumarmj.github.io/"
+        link: "https://kumarmj.github.io/winuall.pdf"
     },
     {
-        title: "🚀 Udemy Certificate",
-        link: "https://kumarmj.github.io/"
+        title: "⚽ My work in jQuery Foundation",
+        link: "https://github.com/qunitjs/qunit/issues/914"
     },
     {
-        title: "🚀 LinkedIn Certificate",
-        link: "https://kumarmj.github.io/"
+        title: "🎓 Cogoport Internship",
+        link: "https://kumarmj.github.io/cogoport.pdf"
+    },
+    {
+        title: "🐱 Work with github",
+        link: "https://github.com/github/licensed/pull/60"
     }
 ]
 
